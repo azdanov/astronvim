@@ -26,5 +26,4 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.copilot-cmp" },
-  { import = "astrocommunity.recipes.vscode-icons" },
 }
