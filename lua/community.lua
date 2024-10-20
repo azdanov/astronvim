@@ -5,6 +5,10 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
